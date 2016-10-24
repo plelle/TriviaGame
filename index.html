@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Streaming Trivia Game</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Roboto" rel="stylesheet">
+	<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="row">
+		<div class="col-sm-12 text-center">
+			<header>
+				<h1>The Streaming Trivia Game</h1>
+			</header>
+		</div>
+
+		<div class="col-sm-12 text-center">
+			<div id="timer">01:00</div>
+			<button type="button" id="startButton">Start Now!</button>
+		</div>
+
+
+		<section id="qholder">
+
+		<div class="col-sm-12 text-center">
+			<ul id="questions">
+			
+				<li id="question1">How much does the average person spend on cable per year?</li>
+				<input type="radio" name="answer1" id="answers" value="A" />$990
+				<input type="radio" name="answer1" id="answers" value="B" />$740
+				<input type="radio" name="answer1" id="answers" value="C" />$1350
+				<input type="radio" name="answer1" id="answers" value="D" />$2700
+			
+			</ul>
+			<ul id="questions">
+				<li id="question2">How many channels does the average person watch consistently?</li>
+				<input type="radio" name="answer2" id="answers" value="A" />3
+				<input type="radio" name="answer2" id="answers" value="B" />4
+				<input type="radio" name="answer2" id="answers" value="C" />7
+				<input type="radio" name="answer2" id="answers" value="D" />5
+			</ul>
+			<ul id="questions">
+				<li id="question3">How many shows does the average person watch consistently?</li>
+				<input type="radio" name="answer3" id="answers" value="A" />2
+				<input type="radio" name="answer3" id="answers" value="B" />6
+				<input type="radio" name="answer3" id="answers" value="C" />3
+				<input type="radio" name="answer3" id="answers" value="D" />4
+			</ul>
+			<ul id="questions">
+				<li id="question4">How many streaming subscriptions does the average consumer have active?</li>
+				<input type="radio" name="answer4" id="answers" value="A" />3
+				<input type="radio" name="answer4" id="answers" value="B" />5
+				<input type="radio" name="answer4" id="answers" value="C" />7
+				<input type="radio" name="answer4" id="answers" value="D" />1
+			</ul>
+			<ul id="questions">
+				<li id="question5">How much is the average streaming subscription per month?</li>
+				<input type="radio" name="answer5" id="answers" value="A" />$25
+				<input type="radio" name="answer5" id="answers" value="B" />$45
+				<input type="radio" name="answer5" id="answers" value="C" />$60
+				<input type="radio" name="answer5" id="answers" value="D" />$80
+			</ul>
+			<ul id="questions">
+				<li id="question6">How many streaming media players are in the market today?</li>
+				<input type="radio" name="answer6" id="answers" value="A" />3
+				<input type="radio" name="answer6" id="answers" value="B" />4
+				<input type="radio" name="answer6" id="answers" value="C" />6
+				<input type="radio" name="answer6" id="answers" value="D" />Thousands
+			</ul>
+			<ul id="questions">
+				<li id="question7">How much time does the average consumer watch TV and movies in a week?</li>
+				<input type="radio" name="answer7" id="answers" value="A" />25 hours
+				<input type="radio" name="answer7" id="answers" value="B" />35 hours
+				<input type="radio" name="answer7" id="answers" value="C" />45 hours
+				<input type="radio" name="answer7" id="answers" value="D" />50 hours
+			</ul>
+			<ul id="questions">
+				<li id="question8">What is the number one watched show on cable televsion today?</li>
+				<input type="radio" name="answer8" id="answers" value="A" />NFL Sunday Night Football
+				<input type="radio" name="answer8" id="answers" value="B" />The Walking Dead
+				<input type="radio" name="answer8" id="answers" value="C" />Big Bang Theory
+				<input type="radio" name="answer8" id="answers" value="D" />Empire
+			</ul>
+			<ul id="questions">
+				<li id="question9">What is the longest running show on cable televsion today?</li>
+				<input type="radio" name="answer9" id="answers" value="A" />Southpark
+				<input type="radio" name="answer9" id="answers" value="B" />Gunsmoke
+				<input type="radio" name="answer9" id="answers" value="C" />Law & Order
+				<input type="radio" name="answer9" id="answers" value="D" />Simpsons
+			</ul>
+			<ul id="questions">
+				<li id="question10">Did you have fun taking this trivia quiz?</li>
+				<input type="radio" name="answer10" id="answers" value="A" />Yes
+				<input type="radio" name="answer10" id="answers" value="B" />No
+			</ul>
+		</form>
+		</div>	
+
+		<div class="col-sm-12 text-center">
+			<button type="button" id="submitButton">Submit Answers!</button>
+			<button type="button" id="clearButton">Clear Answers!</button>
+		</div>
+
+		</section>
+
+	</div>
+	
+<script src="javascript/app.js"></script>	
+</body>
+</html>
